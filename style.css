@@ -1,3 +1,16 @@
-.container {
-    text-align: right;
+.card-body {
+    box-sizing: border-box; margin-left: 0px; margin-top: 20px;
+    float: left;
+    
+}
+.btn-primary {
+    background-color: teal;
+}
+h1 { 
+    color: teal;
+}
+.navbar-brand {
+    background-color: teal;
+    color: white;
+    margin: 10px;
 }
