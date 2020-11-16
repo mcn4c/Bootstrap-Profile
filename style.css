@@ -28,14 +28,20 @@ h1 {
     color: white;
     margin: 10px;
 }
-footer { box-sizing: border-box; background-color: gray;}
 
 
 .textWrap {
-    float: left;
-    margin: 0;
+        float: left;  
+        margin: 5px; 
+    } 
 
-}
+    #paragraph1 { 
+        text-align: justify; 
+        font-size: 25px; 
+        margin: 5px;
+    } 
+
+
 
 footer {
     position: relative;
@@ -46,12 +52,9 @@ footer {
     background-color: pink;
     color: white;
     text-align: center;
-  }
+}
   
  
   
-  .topnav {
-    float: right;
-  }
   
     
