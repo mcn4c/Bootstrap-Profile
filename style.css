@@ -31,7 +31,7 @@ h1 {
     color: pink;
     margin: 10px;
 }
-a:hover{
+a:hover {
     background-color: black;
 
 }
@@ -47,13 +47,16 @@ img {
 
     #paragraph1 { 
         text-align: justify; 
-        font-size: 25px; 
+        font-size: 20px; 
         margin: 5px;
+        color: pink;
     } 
+
+    
 
 
 footer {
-    position: absolute;
+    
     left: 0;
     bottom: 0;
     width: 100%;
