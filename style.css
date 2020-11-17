@@ -1,11 +1,22 @@
  
  body {
      background-image: url("https://images.pexels.com/photos/4173624/pexels-photo-4173624.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+     font-family: 'Xanh Mono', monospace;
+
+    }
+    .navbar-brand {
+        text-align: center;
+        
+        color: pink;
+        margin: 10px;
+    }
+    a:hover {
+        background-color: gray;
     
     }
-    
 .card-body {
     box-sizing: border-box; 
+    border: pink;
     margin-left: 0px; 
     padding: 10px; 
     margin-bottom: 0px;
@@ -26,18 +37,12 @@ h1 {
     color: pink;
 }
 
-.navbar-brand {
-    
-    color: pink;
-    margin: 10px;
-}
-a:hover {
-    background-color: black;
-
-}
-
 img {
     border: solid pink 1px;
+}
+
+p{
+    color: pink;
 }
 
 .textWrap {
@@ -60,32 +65,15 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 50px;
-    background-color: black;
+    height: 20px;
+    background-color: white;
     color: pink;
     text-align: center;
+    font-style: bold;
+    font-size: 17px;
 }
 
-@media screen and (max-width: 992px) {
-    img {
-      width: auto;
-      height: auto;
-    }
-  }
 
-  @media screen and (max-width: 768px) {
-    img {
-      width: auto;
-      height: auto;
-    }
-  }
-
-  @media screen and (max-width: 400px) {
-    img {
-      width: auto;
-      height: auto;
-    }
-  }
  
   
   
