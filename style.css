@@ -32,10 +32,13 @@ h1 {
     margin: 10px;
 }
 a:hover{
-    background-color: pink;
-    text-color: white;
+    background-color: black;
+
 }
 
+img {
+    border: solid pink 1px;
+}
 
 .textWrap {
         float: left;  
