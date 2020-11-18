@@ -10,21 +10,19 @@
         color: pink;
         margin: 10px;
     }
-    a:hover {
+a:hover {
         background-color: pink;
     
     }
 .card-body {
     box-sizing: border-box; 
     border: pink;
-    margin-left: 0px; 
-    padding: 10px; 
-    margin-bottom: 0px;
-    position: relative;
-    float: left;
+     padding: 10px; 
+    position: center;
     background-color: black;
     
 }
+
 .card {
     margin-bottom: 50px;
     margin-top: 50px;
@@ -41,7 +39,7 @@ img {
     border: solid pink 1px;
 }
 
-p{
+p {
     color: seagreen;
 }
 
@@ -53,7 +51,7 @@ p{
         
     } 
 
-    #paragraph1, #paragraph2 { 
+#paragraph1, #paragraph2 { 
         text-align: justify; 
         font-size: 20px; 
         margin: 5px;
@@ -77,47 +75,9 @@ footer {
     font-size: 17px;
 }
 
-@media screen and (max-width: 768px) {
-   
-    .card {
-      width: 100%;
-      height: auto%;
-    }
-    .img-thumbnail {
-        width: 350px;
-        height: 350px;
-    }
-    
-}
-
-@media screen and (max-width: 992px) {
-
-    .card {
-        width: 100%;
-        height: auto;
-    }
-
-    .img-thumbnail {
-        width: 450px;
-        height: 450px;
-    }
-}
 
 
-  @media screen and (max-width: 400px) {
-
-    .card {
-        width: 100%;
-        height: auto%;
-        
-    }
-    .img-thumbnail {
-        width: 100px;
-        height: 100px;
-    }
-
-}
-    
+ 
 
 
 
