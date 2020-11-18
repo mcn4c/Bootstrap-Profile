@@ -53,7 +53,7 @@ p {
 
 #paragraph1, #paragraph2 { 
         text-align: justify; 
-        font-size: 20px; 
+        font-size: 30px; 
         margin: 5px;
         color: pink;
     } 
