@@ -53,12 +53,13 @@ p{
         
     } 
 
-    #paragraph1 { 
+    #paragraph1, #paragraph2 { 
         text-align: justify; 
         font-size: 20px; 
         margin: 5px;
         color: pink;
     } 
+    
 
     
 
@@ -82,25 +83,42 @@ footer {
       width: 100%;
       height: auto%;
     }
+    .img-thumbnail {
+        width: 350px;
+        height: 350px;
+    }
     
+}
 
-  }
+@media screen and (max-width: 992px) {
+
+    .card {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-thumbnail {
+        width: 450px;
+        height: 450px;
+    }
+}
+
 
   @media screen and (max-width: 400px) {
 
     .card {
         width: 100%;
         height: auto%;
-    }
-
-    
-        } 
-
         
-
     }
-    
+    .img-thumbnail {
+        width: 100px;
+        height: 100px;
+    }
+
 }
+    
+
 
 
  
