@@ -43,6 +43,12 @@ p {
     color: seagreen;
 }
 
+#imageHome {
+    border-radius: 50%;
+    border: ridge pink;
+    text-align: center;
+}
+
 .textWrap {
         float: left;  
         margin: 5px; 
