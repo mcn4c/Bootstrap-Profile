@@ -11,7 +11,7 @@
         margin: 10px;
     }
     a:hover {
-        background-color: gray;
+        background-color: pink;
     
     }
 .card-body {
@@ -42,12 +42,15 @@ img {
 }
 
 p{
-    color: pink;
+    color: seagreen;
 }
 
 .textWrap {
         float: left;  
         margin: 5px; 
+        border-radius: 50%;
+        border: ridge pink;
+        
     } 
 
     #paragraph1 { 
@@ -71,6 +74,32 @@ footer {
     text-align: center;
     font-style: bold;
     font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+   
+    .card {
+      width: 100%;
+      height: auto%;
+    }
+    
+
+  }
+
+  @media screen and (max-width: 400px) {
+
+    .card {
+        width: 100%;
+        height: auto%;
+    }
+
+    
+        } 
+
+        
+
+    }
+    
 }
 
 
