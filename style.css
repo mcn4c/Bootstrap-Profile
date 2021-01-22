@@ -1,93 +1,102 @@
- 
  body {
-     background-image: url("https://images.pexels.com/photos/4173624/pexels-photo-4173624.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-     font-family: 'Xanh Mono', monospace;
+     background-image: url("./Assets/background.jpg");
+     font-family: 'Handlee', cursive;
 
-    }
-    .navbar-brand {
-        text-align: center;
-        
-        color: pink;
-        margin: 10px;
-    }
-a:hover {
-        background-color: pink;
-    
-    }
-.card-body {
-    box-sizing: border-box; 
-    border: pink;
-     padding: 10px; 
-    position: center;
-    background-color: black;
-    
-}
+     height: 100%;
+     /*background-color: skyblue;
 
-.card {
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
+  /* Center and scale the image */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 
-.btn-primary {
-    background-color: pink;
-}
-h1 { 
-    color: pink;
-}
+ }
 
-img {
-    border: solid pink 1px;
-}
+ .navbar {
+     background-image: url("./Assets/bluebackground.png");
 
-p {
-    color: seagreen;
-}
+ }
 
-#imageHome {
-    border-radius: 50%;
-    border: ridge pink;
-    text-align: center;
-}
-
-.textWrap {
-        float: left;  
-        margin: 5px; 
-        border-radius: 50%;
-        border: ridge pink;
-        
-    } 
-
-#paragraph1, #paragraph2 { 
-        text-align: justify; 
-        font-size: 30px; 
-        margin: 5px;
-        color: pink;
-    } 
-    
-
-    
+ .navbar-brand {
+     text-align: center;
 
 
-footer {
-    
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 20px;
-    background-color: white;
-    color: pink;
-    text-align: center;
-    font-style: bold;
-    font-size: 17px;
-}
+     margin: 10px;
+ }
 
 
+ a:hover {
+     font-size: 30px;
 
- 
+ }
+
+ .card-body {
+     box-sizing: border-box;
+     border: pink;
+     padding: 10px;
+     position: center;
+     background-image: url(./Assets/bluebackground.png);
+
+ }
+
+ .card {
+     margin-bottom: 50px;
+     margin-top: 50px;
+ }
+
+ .btn-primary {
+     background-color: white;
+ }
+
+ h1 {
+     color: white;
+ }
+
+ img {
+     border: solid pink 1px;
+ }
+
+ p {
+     color: white;
+ }
+
+ #imageHome {
+     border-radius: 50%;
+     border: ridge pink;
+     text-align: center;
+ }
+
+ .textWrap {
+     float: left;
+     margin: 5px;
+     border-radius: 50%;
+     border: ridge pink;
+
+ }
+
+ #paragraph1,
+ #paragraph2 {
+     text-align: justify;
+     font-size: 30px;
+     margin: 5px;
+     color: white;
+ }
 
 
 
- 
-  
-  
-    
+
+
+ footer {
+
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 20px;
+     background-color: white;
+     color: pink;
+     text-align: center;
+     font-style: bold;
+     font-size: 17px;
+ }
+
+ .right-align {}
