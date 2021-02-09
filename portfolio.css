@@ -102,6 +102,8 @@ footer {
     font-size: 17px;
 }
 
+
+
 .navbar {
     background-image: url("./Assets/blue-2721464_1920.jpg");
 
@@ -112,4 +114,10 @@ footer {
 
 
     margin: 10px;
+}
+
+
+a:hover {
+    font-size: 30px;
+
 }

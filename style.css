@@ -46,16 +46,6 @@
      background-image: url("./Assets/mosaic-3394375_1920.jpg");
  }
 
- .btn-primary {
-     background-color: navy;
-     color: white;
- }
-
- .btn-primary:hover {
-     /* background-color: white;
-     color: navy; */
-     font-size: 20px;
- }
 
 
  h1 {
@@ -80,6 +70,7 @@
      font-size: 30px;
  }
 
+ 
  #connect {
      color: #713949
  }

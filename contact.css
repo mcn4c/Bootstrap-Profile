@@ -16,6 +16,12 @@ body {
     margin: 10px;
 }
 
+
+a:hover {
+    font-size: 30px;
+
+}
+
 .btn-primary {
     background-color: #4eaaaa;
 
@@ -26,9 +32,6 @@ body {
 
 }
 
-a:hover {
-    font-size: 30px;
-}
 
 .card-body {
 
