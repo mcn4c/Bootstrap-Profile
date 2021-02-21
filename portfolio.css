@@ -29,6 +29,9 @@ footer {
 a:hover {
 	font-size: 20px;
 }
+.portfolio {
+	margin-top: 100px;
+}
 
 .btn-link {
 	background-color: #4eaaaa;
