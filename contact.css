@@ -1,65 +1,52 @@
 body {
-    background-image: url(./Assets/mosaic-3394375_1920.jpg);
-    font-family: 'Handlee', cursive;
-    color: #713949
+	background-image: url(./Assets/mosaic-3394375_1920.jpg);
+	font-family: 'Handlee', cursive;
+	color: #713949;
 }
 
 .navbar {
-    background-image: url("./Assets/blue-2721464_1920.jpg");
-
+	background-image: url("./Assets/blue-2721464_1920.jpg");
 }
 
 .navbar-brand {
-    text-align: center;
+	text-align: center;
 
-
-    margin: 10px;
+	margin: 10px;
 }
 
-
 a:hover {
-    font-size: 30px;
-
+	font-size: 20px;
 }
 
 .btn-primary {
-    background-color: #4eaaaa;
-
+	background-color: #4eaaaa;
 }
 
 .btn-primary:hover {
-    font-size: 20px;
-    background-color:#713949
-
+	font-size: 20px;
+	background-color: #713949;
 }
 
-
 .card-body {
-
-
-    padding: 10px;
-    position: center;
-    /* background-color: #4eaaaa; */
-
+	padding: 10px;
+	position: center;
+	/* background-color: #4eaaaa; */
 }
 
 .card {
+	margin-top: 50px;
 
-    margin-top: 50px;
-
-    /* background-color: #4eaaaa; */
-    ;
+	/* background-color: #4eaaaa; */
 }
 
 footer {
-
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    background-image: url(./Assets/blue-2721464_1920.jpg);
-    color: white;
-    text-align: center;
-    font-style: bold;
-    font-size: 17px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-image: url(./Assets/blue-2721464_1920.jpg);
+	color: white;
+	text-align: center;
+	font-style: bold;
+	font-size: 17px;
 }
