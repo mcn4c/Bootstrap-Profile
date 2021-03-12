@@ -76,7 +76,7 @@ h1 {
 }
 
 .paragraph2 {
-	text-align: justify;
+	/* text-align: justify; */
 	font-size: 30px;
 	margin-right: 10px;
 	color: #4eaaaa;
