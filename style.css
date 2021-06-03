@@ -1,41 +1,13 @@
-body {
+/*Home Page CSS */
+#about-body {
 	font-family: 'Handlee', cursive;
 
-	/* background-color: #4eaaaa; */
-
-	/*background-color: skyblue;
-
-  /* Center and scale the image */
-	/* background-color: #4eaaaa; */
+	
 }
 
-.navbar {
-	background-image: url("./Assets/blue-2721464_1920.jpg");
-}
-
-.navbar-brand {
-	text-align: center;
-
-	margin: 10px;
-}
-
-a:hover {
-	font-size: 20px;
-}
-
-.card-body {
-	padding: 10px;
-	position: center;
-	background-image: url(./Assets/mosaic-3394375_1920.jpg);
-}
-
-.card {
-	background-image: url("./Assets/mosaic-3394375_1920.jpg");
-}
 
 h1 {
 	color: #4eaaaa;
-	/* background-image: url(./Assets/bluebackground.png); */
 	padding-right: 40px;
 	padding-left: 40px;
 }
@@ -86,14 +58,92 @@ h1 {
 	/* background-color: #713949; */
 }
 
-/* #card1 {
 
-     border-radius: 50%;
-     border: solid rgb(192, 63, 84);
-     height: 400px;
-     width: 400px;
 
- } */
+
+/**************Portfolio CSS********************/
+#portfolio-body {
+	font-family: 'Handlee', cursive;
+	background-image: url("./Assets/mosaic-3394375_1920.jpg");
+	color: #713949;
+}
+
+
+.portfolio {
+	margin-top: 100px;
+}
+
+.btn-link {
+	background-color: #4eaaaa;
+	color: white;
+	width: 100%;
+
+	margin: 5px;
+}
+
+.btn-link:hover {
+	background-color: #713949;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+}
+
+.image {
+	width: 100%;
+	height: 170px;
+	border-radius: 10px;
+	object-fit:cover;
+
+  }
+  /**************Contact CSS********************/
+
+  #contact-body {
+	background-image: url(./Assets/mosaic-3394375_1920.jpg);
+	font-family: 'Handlee', cursive;
+	color: #713949;
+}
+
+
+.btn-primary {
+	background-color: #4eaaaa;
+}
+
+.btn-primary:hover {
+	font-size: 20px;
+	background-color: #713949;
+}
+
+.ccard-body {
+	padding: 10px;
+	position: center;
+	/* background-color: #4eaaaa; */
+}
+
+.ccard {
+	margin-top: 50px;
+
+	/* background-color: #4eaaaa; */
+}
+
+
+  /************** Footer and Nav CSS *****************/
+
+
+.navbar {
+	background-image: url("./Assets/blue-2721464_1920.jpg");
+}
+
+.navbar-brand {
+	text-align: center;
+
+	margin: 10px;
+}
+
+a:hover {
+	font-size: 20px;
+}
 
 footer {
 	left: 0;
@@ -106,3 +156,7 @@ footer {
 	font-style: bold;
 	font-size: 17px;
 }
+
+
+  
+
