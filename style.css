@@ -1,9 +1,8 @@
 /*Home Page CSS */
-#about-body {
-	font-family: 'Handlee', cursive;
-
-	
+body {
+	font-family: 'Josefin Slab', serif;
 }
+
 
 
 h1 {
@@ -28,10 +27,11 @@ h1 {
 .pic {
 	/*float: left; */
 	margin-left: 40px;
-	border-radius: 50%;
+	border-radius: 5%;
 	border: solid #4eaaaa;
 
-	width: 300px;
+	width: 500px;
+	height: auto;
 }
 
 .about-me {
@@ -63,10 +63,11 @@ h1 {
 
 /**************Portfolio CSS********************/
 #portfolio-body {
-	font-family: 'Handlee', cursive;
+	/* font-family: 'Handlee', cursive; */
 	background-image: url("./Assets/mosaic-3394375_1920.jpg");
 	color: #713949;
 }
+
 
 
 .portfolio {
@@ -101,7 +102,7 @@ h2 {
 
   #contact-body {
 	background-image: url(./Assets/mosaic-3394375_1920.jpg);
-	font-family: 'Handlee', cursive;
+	/* font-family: 'Handlee', cursive; */
 	color: #713949;
 }
 
@@ -142,7 +143,7 @@ h2 {
 }
 
 a:hover {
-	font-size: 20px;
+	color: #713949;
 }
 
 footer {

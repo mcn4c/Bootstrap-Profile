@@ -17,16 +17,18 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=Handlee&family=Kaushan+Script&family=Lobster+Two&family=Marck+Script&family=Patrick+Hand&family=Satisfy&display=swap"
     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&family=Sacramento&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>Mary's Bootstrap Profile About Page</title>
 </head>
 
-<body id="about-body">
+<body id="about-body" >
   <!-- Navigation Bar -->
   <!-- Nav Button -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html" style="color: white">Mary Nash</a>
+    <a class="navbar-brand" href="index.html" style="color: white; font-size: 4rem">Mary Nash</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -36,14 +38,14 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class=" nav navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="contact.html" style="color: white">Contact <span
+            <a class="nav-link" href="contact.html" style="color: white; font-size: 2rem">Contact <span
                 class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="portfolio.html" style="color: white">Portfolio</a>
+            <a class="nav-link" href="portfolio.html" style="color: white; font-size: 2rem">Portfolio</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="index.html" style="color: white">About</a>
+            <a class="nav-link" href="index.html" style="color: white; font-size: 2rem">About</a>
           </li>
         </ul>
       </div>
@@ -51,10 +53,6 @@
   </nav>
   <!-- About Me container -->
 
-  <!-- <div class="row">
-    <div class="col-lg-6"> -->
-  <!-- <div class="card">
-    <div class="card-body" id="card1"> -->
   <br><br>
   <div class="row intro">
     <div class="col-lg-4 welcome">
@@ -158,21 +156,13 @@
 
 
   <!-- jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
   <script src="https://kit.fontawesome.com/94078e1ae9.js" crossorigin="anonymous"></script>
-  <script>
-    $(document).ready(function(){
-      
-        $(".intro").fadeIn(3000);
-        $(".about-me-fade").fadeIn(6000);
-      });
-    
-    </script>
+  <script src="script.js"></script>
 
 </body>
 
