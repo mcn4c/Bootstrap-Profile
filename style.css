@@ -1,12 +1,12 @@
-/*Home Page CSS */
+
 body {
 	font-family: 'Josefin Slab', serif;
 }
 
 
 
-h1 {
-	color: #4eaaaa;
+.welcome {
+	color: #3a6beb;
 	padding-right: 40px;
 	padding-left: 40px;
 }
@@ -18,6 +18,7 @@ h1 {
 
 .intro-p {
 	font-size: 30px;
+	color: #3a6beb;
 }
 
 #connect {
@@ -27,19 +28,26 @@ h1 {
 .pic {
 	/*float: left; */
 	margin-left: 40px;
-	border-radius: 5%;
-	border: solid #4eaaaa;
-
-	width: 500px;
+	border-radius: 50%;
+	border: solid #3a6beb;
+	
+	width: 450px;
 	height: auto;
+	
+}
+.pic-div{
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
 }
 
 .about-me {
 	text-align: justify;
 	font-size: 30px;
 	/* margin: 10px; */
-	color: #4eaaaa;
-	border-right: solid #4eaaaa;
+	/* color: #014993; */
+	color: #3a6beb;
+	border-right: solid #3a6beb;
 
 	width: 100%;
 	padding: 30px;
@@ -51,8 +59,9 @@ h1 {
 	/* text-align: justify; */
 	font-size: 30px;
 	margin-right: 10px;
-	color: #4eaaaa;
-	border-right: solid #4eaaaa;
+	color: #3a6beb;
+	border-right: solid #3a6beb;
+	
 	width: 100%;
 	padding: 10px;
 	/* background-color: #713949; */
@@ -63,7 +72,6 @@ h1 {
 
 /**************Portfolio CSS********************/
 #portfolio-body {
-	/* font-family: 'Handlee', cursive; */
 	background-image: url("./Assets/mosaic-3394375_1920.jpg");
 	color: #713949;
 }
@@ -112,7 +120,7 @@ h2 {
 }
 
 .btn-primary:hover {
-	font-size: 20px;
+	/* font-size: 20px; */
 	background-color: #713949;
 }
 
@@ -127,6 +135,10 @@ h2 {
 
 	/* background-color: #4eaaaa; */
 }
+.message-input{
+	height: 130px;
+
+}
 
 
   /************** Footer and Nav CSS *****************/
@@ -138,12 +150,21 @@ h2 {
 
 .navbar-brand {
 	text-align: center;
+	font-size: 4rem;
+	font-weight: bold;
 
 	margin: 10px;
 }
+.navbar-brand:hover{
+	font-size: 4.1rem;
+}
 
-a:hover {
-	color: #713949;
+.nav-link {
+	font-size: 2.5rem;
+}
+
+.nav-link:hover{
+	font-size: 3rem;
 }
 
 footer {
