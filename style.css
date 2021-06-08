@@ -27,19 +27,15 @@ body {
 
 .pic {
 	/*float: left; */
-	margin-left: 40px;
-	border-radius: 50%;
+	margin: auto;
+	border-radius: 5%;
 	border: solid #3a6beb;
 	
 	width: 450px;
 	height: auto;
 	
 }
-.pic-div{
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
-}
+
 
 .about-me {
 	text-align: justify;
